@@ -37,8 +37,6 @@ GROUP BY Overtime
 ORDER BY Attrition_rate DESC;
 
 
-
-
 #5. Attrition rate by age group
 SELECT 
 AgeGroup, 
