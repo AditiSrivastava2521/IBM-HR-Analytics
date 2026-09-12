@@ -5,15 +5,13 @@ This project analyzes employee attrition using the IBM HR Analytics Employee Att
 The goal is to understand which employee groups and workplace factors are associated with employee attrition and identify areas where HR could focus on improving employee retention.
 
 ### Business Problem
-
-Employee attrition can increase recruitment costs, affect team productivity, and create challenges for workforce planning.
 The main business questions addressed in this project are:
 
 * What factors are associated with employee attrition?
 * Which employee groups have the highest attrition rate? 
 * What actions can HR take to improve employee retention?
 
-## Tools & Technologies
+### Tools & Technologies
 
 * **Python** – Data cleaning, feature engineering, EDA and statistical analysis
 * **Pandas** – Data manipulation and analysis
