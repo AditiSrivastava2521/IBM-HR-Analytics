@@ -7,9 +7,10 @@ The goal is to understand which employee groups and workplace factors are associ
 ### Business Problem
 
 Employee attrition can increase recruitment costs, affect team productivity, and create challenges for workforce planning.
-The main business question addressed in this project is:
-
-**What factors are associated with employee attrition, which employee groups have the highest attrition rates, and what actions can HR take to improve employee retention?**
+The main business questions addressed in this project are:
+**What factors are associated with employee attrition?
+**Which employee groups have the highest attrition rate? 
+**What actions can HR take to improve employee retention?
 
 ## Tools & Technologies
 
@@ -89,7 +90,7 @@ The SQL analysis focuses on:
 
 The final analysis is presented through a two page Power BI dashboard:
 
-**Page 1 – HR Overview**
+**Page 1- HR Overview**
 
 It shows:
 * Total Employees
@@ -103,7 +104,7 @@ It shows:
 * Attrition by Age Group
 * Attrition by Overtime
 
-**Page 2 – Attrition Factors**
+**Page 2- Attrition Factors**
 
 Explores factors associated with employee attrition like:
 
@@ -197,21 +198,9 @@ IBM-HR-Analytics/
 
 ![Attrition Factors](screenshots/02_Dashboard_Attrition_Factors.png)
 
----
-
-## Limitations
-
-* This dataset represents a specific set of employees and may not represent every organization.
-* The analysis identifies **associations**, not direct causes of employee attrition.
-* The dataset is observational, so the findings should not be interpreted as causal relationships.
-* Further analysis with additional organizational and employee data could provide deeper insights.
-
----
-
 ## Conclusion
 
-This project demonstrates an end-to-end HR analytics workflow using **Python, SQL and Power BI**.
-
-The analysis identifies employee groups and workplace factors that show differences in attrition rates, while statistical analysis helps determine which relationships are statistically significant.
-
-The final Power BI dashboard converts these findings into a business-friendly format that can support HR decision-making and employee retention strategies.
+This project demonstrates an end-to-end HR analytics workflow using Python, SQL and Power BI.
+It helped in finding employee groups and workplace factors that show differences in attrition rates. 
+The statistical analysis helped in determining which relationships are statistically significant.
+The final Power BI dashboard converted these findings into a format that can support HR decision-making and employee retention strategies.
