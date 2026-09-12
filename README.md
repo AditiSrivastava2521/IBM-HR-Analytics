@@ -1,24 +1,16 @@
-# IBM HR Analytics – Employee Attrition Analysis
+# IBM HR Analytics - Employee Attrition Analysis
 
-## Project Overview
 
 This project analyzes employee attrition using the IBM HR Analytics Employee Attrition & Performance dataset.
 
-The goal is to understand **which employee groups and workplace factors are associated with employee attrition** and identify areas where HR could focus on improving employee retention.
-
-The project uses Python for data cleaning and exploratory analysis, SQL for business-focused analysis, and Power BI to create an interactive dashboard.
-
----
+The goal is to understand which employee groups and workplace factors are associated with employee attrition and identify areas where HR could focus on improving employee retention.
 
 ## Business Problem
 
 Employee attrition can increase recruitment costs, affect team productivity, and create challenges for workforce planning.
-
 The main business question addressed in this project is:
 
 > **What factors are associated with employee attrition, which employee groups have the highest attrition rates, and what actions can HR take to improve employee retention?**
-
----
 
 ## Tools & Technologies
 
