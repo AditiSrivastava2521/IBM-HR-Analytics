@@ -46,9 +46,9 @@ The dataset contains 1,470 employee records.
 The raw dataset was cleaned using Python.
 Main steps included:
 * Identifying constant columns and potential identifier columns
-* Removing unnecessary columns
-The cleaned dataset was then saved.
-
+* Dropping unnecessary columns.
+* The cleaned dataset was saved for further analysis.
+  
 #### 2. Feature Engineering
 
 Two more features were created to make employee groups easier to analyze.
