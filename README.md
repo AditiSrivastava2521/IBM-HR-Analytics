@@ -8,9 +8,10 @@ The goal is to understand which employee groups and workplace factors are associ
 
 Employee attrition can increase recruitment costs, affect team productivity, and create challenges for workforce planning.
 The main business questions addressed in this project are:
-** What factors are associated with employee attrition?
-** Which employee groups have the highest attrition rate? 
-** What actions can HR take to improve employee retention?
+
+* What factors are associated with employee attrition?
+* Which employee groups have the highest attrition rate? 
+* What actions can HR take to improve employee retention?
 
 ## Tools & Technologies
 
