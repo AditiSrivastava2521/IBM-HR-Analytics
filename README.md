@@ -1,33 +1,29 @@
-# IBM HR Analytics - Employee Attrition Analysis
-
+## IBM HR Analytics - Employee Attrition Analysis
 
 This project analyzes employee attrition using the IBM HR Analytics Employee Attrition & Performance dataset.
 
 The goal is to understand which employee groups and workplace factors are associated with employee attrition and identify areas where HR could focus on improving employee retention.
 
-## Business Problem
+### Business Problem
 
 Employee attrition can increase recruitment costs, affect team productivity, and create challenges for workforce planning.
 The main business question addressed in this project is:
 
-> **What factors are associated with employee attrition, which employee groups have the highest attrition rates, and what actions can HR take to improve employee retention?**
+**What factors are associated with employee attrition, which employee groups have the highest attrition rates, and what actions can HR take to improve employee retention?**
 
 ## Tools & Technologies
 
 * **Python** – Data cleaning, feature engineering, EDA and statistical analysis
 * **Pandas** – Data manipulation and analysis
 * **Matplotlib** – Data visualization
-* **SQL / MySQL** – Business-focused data analysis
-* **Power BI** – Interactive HR dashboard
+* **SQL / MySQL** – Business and data analysis
+* **Power BI** – HR dashboard
 * **Google Colab** – Python notebooks
 * **GitHub** – Project documentation and portfolio
 
----
+### Dataset
 
-## Dataset
-
-The dataset contains employee-level information including:
-
+The dataset contains:
 * Age
 * Department
 * Job Role
@@ -39,45 +35,31 @@ The dataset contains employee-level information including:
 * Years at Company
 * Years Since Last Promotion
 * Attrition
-* And other employee and career-related attributes
+* And other attributes
 
-The dataset contains **1,470 employee records**.
+The dataset contains 1,470 employee records.
 
----
+### Project Workflow
 
-## Project Workflow
-
-### 1. Data Cleaning
+#### 1. Data Cleaning
 
 The raw dataset was cleaned using Python.
-
 Main steps included:
-
-* Checking the dataset structure
-* Identifying constant columns
-* Identifying potential identifier columns
+* Identifying constant columns and potential identifier columns
 * Removing unnecessary columns
-* Checking the cleaned dataset
+The cleaned dataset was then saved.
 
-The cleaned dataset was then saved for further analysis.
+#### 2. Feature Engineering
 
-### 2. Feature Engineering
-
-Additional analytical features were created to make employee groups easier to analyze.
-
+Two more features were created to make employee groups easier to analyze.
 These include:
+* AgeGroup
+* TenureGroup
 
-* **AgeGroup**
-* **TenureGroup**
-
-These groups were used during exploratory analysis and statistical testing.
-
-### 3. Exploratory Data Analysis
+#### 3. Exploratory Data Analysis
 
 EDA was performed to identify patterns in employee attrition.
-
 The analysis focused on:
-
 * Overall attrition
 * Age groups
 * Tenure groups
@@ -87,20 +69,14 @@ The analysis focused on:
 * Work-life balance
 * Business travel
 
-### 4. Statistical Analysis
+#### 4. Statistical Analysis
 
 Statistical tests were used to determine whether the patterns observed during EDA were statistically significant.
-
 The analysis includes:
-
 * Chi-square tests for categorical variables
 * T-tests for numerical variables
 
-This helps distinguish simple differences in the data from statistically significant associations.
-
-### 5. SQL Analysis
-
-SQL was used to answer business-oriented questions using the HR dataset.
+#### 5. SQL Analysis
 
 The SQL analysis focuses on:
 
@@ -108,16 +84,14 @@ The SQL analysis focuses on:
 * Department and job-role patterns
 * Employee characteristics
 * Aggregations and comparisons
-* Business-focused insights
 
 ### 6. Power BI Dashboard
 
-The final analysis is presented through a two-page Power BI dashboard:
+The final analysis is presented through a two page Power BI dashboard:
 
 **Page 1 – HR Overview**
 
-Provides a high-level view of:
-
+It shows:
 * Total Employees
 * Employees Who Left
 * Attrition Rate
@@ -131,16 +105,15 @@ Provides a high-level view of:
 
 **Page 2 – Attrition Factors**
 
-Explores factors associated with employee attrition, including:
+Explores factors associated with employee attrition like:
 
 * Job Satisfaction
-* Work-Life Balance
+* Salary Band
 * Tenure Group
+* Work-Life Balance
 * Business Travel
-* Years Since Last Promotion
-* Monthly Income comparison
+* Average Monthly Income
 
----
 
 ## Key Findings
 
@@ -164,8 +137,6 @@ The dataset contains **237 employees who left the company**, giving an overall a
 * Employees with the lowest job satisfaction level have an attrition rate of approximately **22.8%**, compared with **11.3%** for the highest satisfaction level.
 * Employees with the lowest work-life balance level have an attrition rate of approximately **31.3%**.
 * Employees who travel frequently have an attrition rate of approximately **24.9%**, compared with **8.0%** among non-travel employees.
-
----
 
 ## Business Recommendations
 
