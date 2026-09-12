@@ -114,7 +114,6 @@ Explores factors associated with employee attrition like:
 * Business Travel
 * Average Monthly Income
 
-
 ## Key Findings
 
 The dataset contains **237 employees who left the company**, giving an overall attrition rate of approximately **16.1%**.
@@ -129,7 +128,6 @@ The dataset contains **237 employees who left the company**, giving an overall a
 ### Job Role
 
 * **Sales Representatives** have the highest attrition rate among job roles at approximately **39.8%**.
-* Laboratory Technicians and Human Resources employees also show relatively high attrition rates.
 
 ### Work & Satisfaction Factors
 
@@ -142,13 +140,11 @@ The dataset contains **237 employees who left the company**, giving an overall a
 
 Based on the analysis, HR could consider:
 
-1. **Focus on early-tenure employees** through stronger onboarding, mentoring and regular check-ins.
+1. **Focus on early-tenure employees** through stronger mentoring and regular check-ins.
 2. **Review overtime practices** and workload distribution for employees working extended hours.
 3. **Investigate high-attrition job roles**, particularly Sales Representative roles.
 4. **Improve employee experience** by monitoring job satisfaction and work-life balance.
 5. **Review frequent business travel requirements** and consider ways to reduce employee strain where possible.
-
-These recommendations are based on observed associations in the dataset and should not be interpreted as proof that a particular factor directly causes attrition.
 
 ---
 
@@ -186,16 +182,6 @@ IBM-HR-Analytics/
 ```
 
 ---
-
-## Dashboard Preview
-
-### HR Overview
-
-![HR Overview](screenshots/01_Dashboard_Overview.png)
-
-### Attrition Factors
-
-![Attrition Factors](screenshots/02_Dashboard_Attrition_Factors.png)
 
 ## Conclusion
 
